@@ -27,6 +27,6 @@ async function getProduct() {
             <p>${details.prices.price/100} ${details.prices.currency_symbol}</p>
             <button class="cta">Add to cart</button>
         </div>
-        <div class="description"><p>${details.description}</p></div>
+        <div class="description">${details.description}</div>
     `
   }
