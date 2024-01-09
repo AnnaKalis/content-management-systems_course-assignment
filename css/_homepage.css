@@ -1,0 +1,17 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .product-card img,
+  .product-container img {
+    max-width: 100%;
+  }
+
+  h3 {
+    padding-bottom: 0.3rem;
+  }
+  h1 {
+    padding-bottom: 0.5rem;
+  }

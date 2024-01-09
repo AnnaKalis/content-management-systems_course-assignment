@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+    .product-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .description {
+      grid-column: 1/2;
+    }
+  
+    .main-product-info p {
+      padding: 0.5rem 0;
+    }
+  }
