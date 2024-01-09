@@ -1,4 +1,4 @@
-import { displayError } from "../displayerror.js";
+import { displayError } from "./displayerror.js";
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
