@@ -7,7 +7,7 @@ const productContainer = document.querySelector(".product-container");
 
 productContainer.innerHTML = `<div class="loader"></div>`;
 
-const url = "http://ca-cms.local/wp-json/wc/store/products/" + id;
+const url = "https://www.annakalis.be/wp-json/wc/store/products/" + id;
 
 async function getProduct() {
   try {

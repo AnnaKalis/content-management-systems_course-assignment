@@ -1,6 +1,6 @@
 import { displayError } from "./displayerror.js";
 
-const url = "http://ca-cms.local/wp-json/wc/store/products";
+const url = "https://www.annakalis.be/wp-json/wc/store/products";
 const productsContainer = document.querySelector(".products");
 
 productsContainer.innerHTML = `<div class="loader"></div>`;
